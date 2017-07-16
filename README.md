@@ -1,5 +1,7 @@
 ## DisneyFinder
 
+!DisneyFinder(http://i.imgur.com/ioq80ok.gifv)
+
 ### Overview
 
 DisneyFinder is a full stack web application designed to find the perfect princess.
