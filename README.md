@@ -1,6 +1,6 @@
 ## DisneyFinder
 
-!DisneyFinder(http://i.imgur.com/ioq80ok.gifv)
+![DisneyFinder](http://i.imgur.com/ioq80ok.gifv)
 
 ### Overview
 
