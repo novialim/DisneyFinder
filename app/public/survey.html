@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a modern responsive CSS framework based on Material Design by Google. ">
+    <title>Find Your Disney Princess</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#EE6E73">
+    <!-- CSS-->
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+
+   
+    <div class="navbar-fixed">
+      <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+          <div class="row">
+            <div class="col s12">
+              <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+              <a href="/" class="brand-logo">Which Disney Princess is Your Soulmate?</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="/api/friends" target="_blank">API Friends List</a></li>
+                <li><a href="https://github.com/novialim/DisneyFinder" target="_blank">GitHub Repo</a></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="/api/friends" target="_blank">API Friends List</a></li>
+            <li><a href="https://github.com/novialim/DisneyFinder" target="_blank">GitHub Repo</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+      <div class="parallax-container">
+          <div class="parallax"><img src="img/glassslippersurvey.jpg"></div>
+
+                <div class="container">
+                  
+                <div class="row"></div>
+                <div class="row"></div>
+                  
+                  <div class="row">  
+                    <div class="input-field col s12 m6 l6 white-text">                        
+                        <h4>Name (Required)</h4>
+                        <input type="text" name="" id="name" class="form-control" required >
+                    </div>
+                       
+                    <div class="input-field col s12 m6 l6 white-text">                        
+                        <h4>Link to Photo Image (Required)</h4>
+                        <input type="text" name="" id="photo" class="form-control" required >
+                    </div>                    
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q1">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 1: Your favorite weekend activity is curling up with a book.</h6></label>
+                    </div>    
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q2">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 2: You will like to have a dragon lead your (inevitable) royal parade.</h6></label>
+                    </div>
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q3">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 3: The most important quality you look for in a friend is kindness.</h6></label>
+                    </div>
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q4">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 4: Your favourite place to burst into a song is on the beach.</h6></label>
+                    </div>
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q5">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 5: Your mind is always buzzing with unexplored ideas and crazy plans.</h6></label>
+                    </div>
+                    
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q6">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 6: You always do something just out of sheer curiosity.</h6></label>
+                    </div>
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q7">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 7: You often get carried away by fantasies and ideas.</h6></label>
+                    </div>
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q8">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 8: You will hop on the first plane tomorrow to travel around the world.</h6></label>
+                    </div>                    
+                    
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q9">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 9: You will like to try shark diving, bungee jumping, or sky diving.</h6></label>
+                    </div>
+
+                    <div class="input-field col s12 m6 l6 white-text">
+                        <select id="q10">
+                          <option value="" disabled selected>Choose your option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <label class="white-text"><h6>Question 10: You believe in Happily Ever After.</h6></label>
+                    </div>
+                  </div> 
+
+                    <button class="btn waves-effect waves-light yellow black-text" type="submit" id="submit">Discover
+                        <i class="material-icons right">favorite</i>
+                    </button>
+        
+
+
+                </div>  
+
+
+                  <!-- Modal Structure -->
+                  <div id="resultsModal" class="modal">
+                    <div class="modal-content">
+                      <h2 class="modal-title"><strong>Best Match</strong></h2>
+                      <h3 id="matchName"></h3>
+                      <img id="matchImg" src="" alt="">
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" id="close">Yay!</a>
+                    </div>
+                  </div>
+
+
+                
+
+      </div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
+    </script>
+    <script src="js/jquery.timeago.min.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="jade/lunr.min.js"></script>
+    <script src="jade/search.js"></script>
+    <script src="bin/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+
+    <script type="text/javascript">
+
+    // Capture the form inputs 
+    $("#submit").on("click", function(){
+
+        // Form validation
+        function validateForm() {
+          var isValid = true;
+          $('.form-control').each(function() {
+            if ( $(this).val() === '' )
+                isValid = false;
+          });
+
+          $('.chosen-select').each(function() {
+
+            if( $(this).val() === "")
+                isValid = false
+          })
+          return isValid;
+        }
+
+        // If all required fields are filled
+        if (validateForm() == true)
+        {
+
+            // Create an object for the user's data
+            var userData = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+            }
+
+
+            // Grab the URL of the website
+            var currentURL = window.location.origin;
+
+            // AJAX post the data to the friends API. 
+            $.post(currentURL + "/api/friends", userData, function(data){
+                
+                    // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                    $("#matchName").text(data.name);
+                    $('#matchImg').attr("src", data.photo);
+
+                    // Show the modal with the best match 
+                    // $("#resultsModal").modal('open');
+                    $("#resultsModal").modal('open');
+            });
+
+                    // $('#resultsModal').on('close', function () {
+
+                    //     location.reload();
+                    // });
+
+        }
+        else
+        {
+            alert("Please fill out all fields before submitting!");
+        }
+        
+        return false;
+    });
+
+  </script>
+
+
+    <script type="text/javascript">
+       $('.modal').modal({
+          dismissible: true, // Modal can be dismissed by clicking outside of the modal
+          opacity: .5, // Opacity of modal background
+          inDuration: 300, // Transition in duration
+          outDuration: 200, // Transition out duration
+          startingTop: '4%', // Starting top style attribute
+          endingTop: '10%', // Ending top style attribute
+          ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+            alert("Ready");
+            console.log(modal, trigger);
+          },
+          complete: function() { alert('Closed'); } // Callback for Modal close
+        }
+      );
+    </script>
+
+
+
+
+  </body>
+</html>
+
+<!-- got to check for modal close then reload window-->

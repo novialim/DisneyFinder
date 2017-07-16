@@ -1,0 +1,6 @@
+.parallax-container {
+      height: 768px;
+}
+
+body {background-color:#555;}
+.navbar-fixed {position: absolute;z-index:999999999;}

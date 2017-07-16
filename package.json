@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A Disney princess matching application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novialim/DisneyFinder.git"
+  },
+  "author": "Novia Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novialim/DisneyFinder/issues"
+  },
+  "homepage": "https://github.com/novialim/DisneyFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
