@@ -1,6 +1,6 @@
 ## DisneyFinder
 
-![DisneyFinder](http://i.imgur.com/ioq80ok.gifv)
+![DisneyFinder](https://github.com/novialim/DisneyFinder/blob/master/app/public/DisneyFinder.gif)
 
 ### Overview
 
