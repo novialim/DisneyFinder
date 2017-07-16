@@ -6,7 +6,7 @@ DisneyFinder is a full stack web application designed to find the perfect prince
 
 ### Prerequisites
 
-This project uses node and json. Users must install the modules listed under dependencies in the package.json file. All of the modules can be quickly installed by typing 'npm install' from the console. 
+This project uses json, ajax, node and express. Users must install the modules listed under dependencies in the package.json file. All of the modules can be quickly installed by typing 'npm install' from the console. 
 
 ### Using DisneyFinder
 
